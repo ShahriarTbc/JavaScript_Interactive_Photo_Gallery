@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Interactive Photo Gallery</h1>
+    <div id="image">Hover over an image below to display here.</div>
+    <div class="gallery">
+        <img class="preview" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=200" alt="Mountain Lake" onmouseover="upDate(this)" onmouseout="undo()">
+        <img class="preview" src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=200" alt="Forest Path" onmouseover="upDate(this)" onmouseout="undo()">
+        <img class="preview" src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=200" alt="Desert Dunes" onmouseover="upDate(this)" onmouseout="undo()">
+        <img class="preview" src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=200" alt="Ocean Sunset" onmouseover="upDate(this)" onmouseout="undo()">
+    </div>
+    <script src="gallery.js"></script>
+</body>
+</html>
